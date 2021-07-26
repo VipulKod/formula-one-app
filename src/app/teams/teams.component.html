@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="display-4 text-white">Teams</h3>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 my-2" *ngFor="let item of f1Data">
+      <app-team-card
+        [teamName]="item.team"
+        [className]="item.class"
+        [carImage]="item.img"
+      ></app-team-card>
+      <!-- {{item.team}} -->
+    </div>
+  </div>
+</div>

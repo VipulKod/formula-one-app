@@ -1,0 +1,16 @@
+<div class="container">
+  <div class="row">
+    <div class="col-12">
+      <h3 class="display-4 text-white">Drivers</h3>
+    </div>
+
+    <div class="col-12 col-md-6 col-lg-4 my-2" *ngFor="let driver of driverData">
+      <app-driver-card
+        [driverName]="driver.name"
+        [driverNumber]="driver.number"
+        [driverTeam]="driver.team"
+        [className]="driver.class"
+      ></app-driver-card>
+    </div>
+  </div>
+</div>

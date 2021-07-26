@@ -1,0 +1,7 @@
+.link-container:hover{
+    cursor: pointer;
+}
+
+p:hover{
+    color: red;
+}

@@ -1,1 +1,96 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+
+:root {
+    --default-theme: #212121;
+    --theme-primary: #fc290d;
+
+    --font-default: #fff;
+    --font-primary: #212121;
+
+}
+
+body{
+    background-color: #16161f;
+}
+
+.bg-default{
+    background-color: var(--default-theme);
+}
+
+.custom-text-1{
+    font-size: 1.5rem;
+    color: var(--font-default);
+}
+
+.custom-text-2{
+    font-size: 1.5rem;
+    color: var(--font-primary);
+}
+
+.custom-container{
+    margin-left: 16vw;
+}
+
+.card{
+    background-color: var(--default-theme) !important;
+}
+
+.links{
+    border-bottom: 1px solid black;
+    transition: 400ms ease-in-out;
+}
+
+.links:hover{
+    cursor: pointer;
+    background: var(--theme-primary);
+}
+
+a{
+    text-decoration: none !important;
+}
+
+.mercedes{
+    border-bottom: 4px solid #00D2BE;
+}
+
+.red-bull{
+    border-bottom: 4px solid #0600ef;
+}
+
+.ferrari {
+    border-bottom: 4px solid #DC0000;
+}
+
+.racing-point {
+    border-bottom: 4px solid #F596C8;
+}
+
+.mclaren{
+    border-bottom: 4px solid #FF8700;
+}
+
+.renault {
+    border-bottom: 4px solid #FFF500;
+}
+
+.alpha-tauri{
+    border-bottom: 4px solid #ffffff;
+}
+
+.williams{
+    border-bottom: 4px solid #0082fa;
+}
+
+.haas{
+    border-bottom: 4px solid #787878;
+}
+
+.alfa-romeo {
+    border-bottom: 4px solid #960000;
+}
+
+.custom-card-bg{
+    background-color: var(--default-theme) !important;
+    color: var(--font-default);
+}
